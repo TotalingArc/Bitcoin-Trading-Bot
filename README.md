@@ -29,4 +29,8 @@ COINBASE_API_SECRET=your_coinbase_api_secret
 COINBASE_API_PASSPHRASE=your_coinbase_api_passphrase
 ```
 
+#Run Bot
 
+```bash
+node scriptX.js
+```

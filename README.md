@@ -34,3 +34,17 @@ COINBASE_API_PASSPHRASE=your_coinbase_api_passphrase
 ```bash
 node scriptX.js
 ```
+#Configuration
+You can adjust the following parameters in the scriptX.js file:
+
+symbol: The trading pair to monitor (default: 'BTC/USD').
+type: The type of order to place (default: 'limit').
+tradeAmount: The amount of BTC to trade (default: 0.001).
+profitThreshold: The minimum price difference to trigger an arbitrage trade (default: 10).
+
+#Important Notes
+Use at your own risk: Cryptocurrency trading is highly volatile and can result in significant losses.
+API Key Security: Keep your API keys secure and do not share them publicly.
+Fees: Consider exchange fees when setting your profitThreshold to ensure trades are profitable after accounting for fees.
+
+
